@@ -8,7 +8,7 @@
 		function inicio() {
 
 			var senha ="";
-			nome = prompt("Iforme seu nome");
+			nome = prompt("Informe seu nome");
 
 			alert("Olá, " + nome);
 
@@ -22,7 +22,7 @@
 					if (senha == "3589") {
 						ver_saldo();
 					}else{
-						alert("senha inválida");
+						alert("Senha inválida");
 						inicio();
 					}
 				break;
@@ -31,7 +31,7 @@
 					if (senha == "3589") {
 						extrato();	
 					}else{
-						alert("senha inválida");
+						alert("Senha inválida");
 						inicio();
 					}
 				break;
@@ -40,7 +40,7 @@
 					if (senha == "3589") {
 						fazer_saque();
 					}else{
-						alert("senha inválida");
+						alert("Senha inválida");
 						inicio();
 					}
 				break;
@@ -49,7 +49,7 @@
 					if (senha == "3589") {
 						fazer_deposito();
 					}else{
-						alert("senha inválida");
+						alert("Senha inválida");
 						inicio();
 					}
 				break;
@@ -58,7 +58,7 @@
 					if (senha == "3589") {
 						trasferencia();
 					}else{
-						alert("senha inválida");
+						alert("Senha inválida");
 						inicio();
 					}
 				break;
@@ -139,7 +139,7 @@
 
 		function trasferencia(){
 
-			var conta = prompt("informe o numero da conta que irá receber");
+			var conta = prompt("Informe o número da conta que irá receber");
 			var valor = parseInt(prompt("informe o valor"));
 
 			
@@ -175,7 +175,7 @@
 
 		function erro() {
 			alert("Ocorreu algum erro");
-			var opc = prompt("Deja encerrar(e), ou tentar novamente(n)? (e/n)");
+			var opc = prompt("Deja encerrar(e) ou tentar novamente(n)? (e/n)");
 			if(opc == "e"){
 
 				sair();
